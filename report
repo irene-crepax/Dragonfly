@@ -1,0 +1,5 @@
+I first developed a function for manually inspecting the datasets, by printing relevant details such as data types, counts, missing values.
+I also developed a function for manually inspecting missing values; considering the p-value and Cramer's V of the missing values of both datasets,
+I decided to ignore the columns with missing values, as the analysis showed MAR type, and they were not significant for the entity resolution.
+I then manually inspected the columns to choose the blocking variable, which required a sortedneighbourhood approach since the labels didn't match exactly.
+.
